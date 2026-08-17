@@ -6,7 +6,11 @@
   "plugins": [
     {
       "name": "pastoral-assistant-kit",
-      "source": "./plugins/pastoral-assistant-kit"
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SANGUKMA/spark-pastoral-marketplace.git",
+        "path": "plugins/pastoral-assistant-kit"
+      }
     }
   ]
 }
