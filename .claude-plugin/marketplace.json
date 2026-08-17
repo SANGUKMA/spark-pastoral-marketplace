@@ -1,21 +1,12 @@
 {
   "name": "spark-pastoral",
-  "description": "스파크AI교육연구소가 제공하는 목회자·신학생용 Claude 플러그인 모음",
   "owner": {
-    "name": "마상욱 (스파크AI교육연구소)",
-    "url": "https://axnow.org"
+    "name": "SANGUKMA"
   },
   "plugins": [
     {
       "name": "pastoral-assistant-kit",
-      "displayName": "목회비서키트",
-      "source": "./plugins/pastoral-assistant-kit",
-      "description": "설교문 작성(설교자 개인 문체 학습), QT, 소그룹 나눔 교재, 심방 예배 순서, 연간 사업계획서, 연간 말씀계획, 목회 칼럼과 논단, 교재 집필까지 지원하는 스킬 11종 모음",
-      "version": "1.1.0",
-      "category": "ministry",
-      "author": {
-        "name": "마상욱"
-      }
+      "source": "./plugins/pastoral-assistant-kit"
     }
   ]
 }
